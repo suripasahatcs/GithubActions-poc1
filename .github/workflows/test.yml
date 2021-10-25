@@ -7,12 +7,10 @@ on:
   pull_request:
     branches: [ main ]
     types: [opened]
-  workflow dispatch:
 
 jobs:
-  build:
+  Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Run a one line script
-      run: Hello Suripa saha
+    - run: echo "Hello suripa"
