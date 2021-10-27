@@ -2,6 +2,11 @@ name: 'First Github Action POC'
 description: 'First POC to show Hello World'
 author: 'Suripa Saha'
 
+inputs:
+GITHUB_TOKEN:
+  description: 'Github token'
+  required: true
+
 runs:
 using: 'node12'
 main: 'dist/index.js'
