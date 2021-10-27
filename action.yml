@@ -4,7 +4,7 @@ author: 'Suripa Saha'
 
 inputs:
 GITHUB_TOKEN:
-  description: 'Github token'
+  description: 'This token is for pushing code to GitHub using PAT'
   required: true
 
 runs:
