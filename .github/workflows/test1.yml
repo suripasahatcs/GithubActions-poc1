@@ -9,8 +9,8 @@ on:
     types: [opened]
 
 jobs:
-  Explore-GitHub-Actions:
+  test:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - run: echo "Hello suripa"
+    - uses: ./
