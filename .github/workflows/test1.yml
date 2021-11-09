@@ -13,4 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: suripasahatcs/GithubActions-poc1@main
+
+    -name : Run a one line script
+     run: echo hello world
